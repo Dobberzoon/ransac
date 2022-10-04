@@ -5,7 +5,7 @@ from scipy import optimize
 from scipy import signal
 from scipy import special
 
-from ransac.estimators import ransac
+from ransac.ransac.estimators import ransac
 
 
 class XRansac(ransac.Ransac):

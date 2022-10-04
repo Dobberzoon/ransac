@@ -1,6 +1,6 @@
 import numpy as np
 
-from ransac.models.base import Model
+from ransac.ransac.models.base import Model
 
 
 class LeastSquaresModel(Model):

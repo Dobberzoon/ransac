@@ -2,8 +2,8 @@ import unittest
 
 import numpy as np
 
-from ransac.estimators import xransac
-from ransac.estimators.test_ransac import TestRansac
+from ransac.ransac.estimators import xransac
+from ransac.ransac.estimators.test_ransac import TestRansac
 
 
 class TestXRansac(unittest.TestCase):

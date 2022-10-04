@@ -2,7 +2,7 @@ import math
 
 import numpy as np
 
-from ransac.models import exceptions
+from ransac.ransac.models import exceptions
 
 
 class Ransac(object):

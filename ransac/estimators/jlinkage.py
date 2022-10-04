@@ -3,9 +3,9 @@ import itertools
 
 import numpy as np
 
-from ransac.estimators import ransac
-from ransac.estimators import xransac
-from ransac.models import exceptions
+from ransac.ransac.estimators import ransac
+from ransac.ransac.estimators import xransac
+from ransac.ransac.models import exceptions
 
 
 class JLinkage(ransac.Ransac):
